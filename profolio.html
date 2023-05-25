@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <title>
+        Create a Portfolio Gallery
+        using HTML and css
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<style>
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    a:hover {
+        color: brown;
+    }
+
+    p {
+        display: -webkit-box;
+        -webkid-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+
+    }
+
+    .row {
+        margin: 0xp -18px;
+        padding: 8px;
+    }
+
+    .row>.column {
+        padding: 6px;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+
+    .content {
+        background-color: blanchedalmond;
+        padding: 10xp;
+        border: 1xp solid grey;
+    }
+
+    @media screen and (max-width: 850xp) 
+    {
+        width : 50%;
+
+    }
+
+    .avatar {
+        vertical-align: middle;
+        width: 50xp;
+        height: 50xp;
+        border-radius: 50%;
+    }
+
+    
+    .column {
+        width: 100%;
+
+    }
+    @media screen and (max-width: 400px) 
+</style>
+
+<body>
+
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <h3> Hi am a Fullstack deveper</h3>
+        <hr>
+        <h2>Portfolio</h2>
+
+        <img srs="http;//0.academia-photo.com/2163914/698630/608490/s200_sindiso.mazula.jpeg" alt="Avatar"
+            class="avatar">
+        <h2>Sindiso B. Mazula</h2>
+        <h3>My Bio</h3>
+        <p>Let me introduce myself.... </p>
+        <p><strong>Motto;</strong></p>
+        <blockquote> "Life is like a pizza, it depends how you slide
+        </blockquote>
+        <span>
+            <p>Hi i am a Full stack developer currently enrolled in Ayoba programme. I am currently following modules</p>
+        </span>
+        <div class="row>" <div class="column">
+            <div class="content">
+                <img srs="http://www.geeksforgeeks.org/wp-content/uploads/html.png" 
+                               alt="#" style="width: 100%;" 
+
+                <h3>
+                <a href="#">HTML Description</a>
+                </h3>
+                <p>
+                    HTML stands for Hyper Text Markup Language.
+                    It is to design web pages using Markup Language.HTML
+                    is the combination of Hypertext and defines the link
+                    between the web pages.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="http://wwwgeeksforgeeks.org/wp-content/uploads/CSS.png" alt="" style="width: 100%">
+                <h3>
+                    <a href="#">CSS Description</a>
+                </h3>
+                <p>
+                    Cascading Style Sheet, fondly refered to as
+                    CSS, is a simple designed Language intended
+                    to simplify the the process of making web pages presentable.
+                    CSS allows to apply styles to the web pages.
+                </p>
+            </div>
+        </div>
+        <div class="colmn">
+            <div class="content">
+                <img src=
+                "http://media.geeksforgeeks.org/wp-content/cdn-uploads/20213221822156/AngularJS-Tutorials.png"
+                   alt="" style="width: 100%;"
+                   <h3>
+                    <a href="#" Angular Description</a>
+                    </h3>
+            <p>
+               AngularJS was developed in 2008-2009 by Misko Hevery and Adam Abrons and
+               is now maintained by google.
+               AngularJS is a Javascrip open-source front-end framework mainly used to develop single-page 
+               applications(SPAs). 
+               It is a continuosly growing and expanding framework which provides better ways developing web applications.
+
+            </p>
+            </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src=
+                    "http://geeksforgeeks.org/wp-content/uploads/Javascrip.png"
+                      alt="" style="width: 100%;">
+                <h3>
+                    <a href="#">Javascrip Tutorials</a>
+                    </h3>
+
+                    <p>
+                        Javascrip was developed by Brendan Eich in 1994
+                        At first, it was called liveScript but later name was called Javascrip
+                        Javascrip is the muscle of the structure.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div
+    
+    <footer>Copyrigt &copy; ZulexTv</footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
