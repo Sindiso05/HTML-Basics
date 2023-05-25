@@ -44,7 +44,7 @@
         padding: 8px;
     }
 
-    .row>.column {
+    .row.column {
         padding: 6px;
     }
 
@@ -66,11 +66,7 @@
         border: 1xp solid grey;
     }
 
-    @media screen and (max-width: 850xp) 
-    {
-        width : 50%;
-
-    }
+    
 
     .avatar {
         vertical-align: middle;
@@ -84,7 +80,9 @@
         width: 100%;
 
     }
-    @media screen and (max-width: 400px) 
+    @media screen and (max-width: 400px) {
+
+    }
 </style>
 
 <body>
@@ -95,7 +93,7 @@
         <hr>
         <h2>Portfolio</h2>
 
-        <img srs="http;//0.academia-photo.com/2163914/698630/608490/s200_sindiso.mazula.jpeg" alt="Avatar"
+        <img src="http;//0.academia-photo.com/2163914/698630/608490/s200_sindiso.mazula.jpeg" alt="Avatar"
             class="avatar">
         <h2>Sindiso B. Mazula</h2>
         <h3>My Bio</h3>
@@ -106,10 +104,10 @@
         <span>
             <p>Hi i am a Full stack developer currently enrolled in Ayoba programme. I am currently following modules</p>
         </span>
-        <div class="row>" <div class="column">
+        <div class="row>"> <div class="column">
             <div class="content">
-                <img srs="http://www.geeksforgeeks.org/wp-content/uploads/html.png" 
-                               alt="#" style="width: 100%;" 
+                <img src="http://www.geeksforgeeks.org/wp-content/uploads/html.png" 
+                               alt="#" style="width: 100%;" >
 
                 <h3>
                 <a href="#">HTML Description</a>
@@ -138,13 +136,12 @@
                 </p>
             </div>
         </div>
-        <div class="colmn">
+        <div class="column">
             <div class="content">
-                <img src=
-                "http://media.geeksforgeeks.org/wp-content/cdn-uploads/20213221822156/AngularJS-Tutorials.png"
-                   alt="" style="width: 100%;"
+                <img src="http://media.geeksforgeeks.org/wp-content/cdn-uploads/20213221822156/AngularJS-Tutorials.png"
+                   alt="" style="width: 100%;">
                    <h3>
-                    <a href="#" Angular Description</a>
+                    <a href="#">Angular Description</a>
                     </h3>
             <p>
                AngularJS was developed in 2008-2009 by Misko Hevery and Adam Abrons and
@@ -173,7 +170,7 @@
                 </div>
             </div>
         </div>
-    </div
+    </div>
     
     <footer>Copyrigt &copy; ZulexTv</footer>
 </body>
