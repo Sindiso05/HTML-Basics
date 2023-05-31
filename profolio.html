@@ -44,13 +44,15 @@
         padding: 8px;
     }
 
-    .row.column {
+    .row> .column {
         padding: 6px;
+
     }
 
     .column {
         float: left;
         width: 25%;
+
     }
 
     .row::after {
@@ -74,13 +76,18 @@
         height: 50xp;
         border-radius: 50%;
     }
+    @media screen and (max-width: 850px) {
 
+.column {
+    width: 50%;
     
-    .column {
-        width: 100%;
-
+}
     }
     @media screen and (max-width: 400px) {
+
+        .column {
+            width: 100%;
+        }
 
     }
 </style>
@@ -93,8 +100,7 @@
         <hr>
         <h2>Portfolio</h2>
 
-        <img src="http;//0.academia-photo.com/2163914/698630/608490/s200_sindiso.mazula.jpeg" alt="Avatar"
-            class="avatar">
+        <img src="himage.png" alt="Avatar" class="avatar">
         <h2>Sindiso B. Mazula</h2>
         <h3>My Bio</h3>
         <p>Let me introduce myself.... </p>
@@ -104,7 +110,8 @@
         <span>
             <p>Hi i am a Full stack developer currently enrolled in Ayoba programme. I am currently following modules</p>
         </span>
-        <div class="row>"> <div class="column">
+        <div class="row>"> 
+            <div class="column">
             <div class="content">
                 <img src="http://www.geeksforgeeks.org/wp-content/uploads/html.png" 
                                alt="#" style="width: 100%;" >
